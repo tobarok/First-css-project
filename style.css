@@ -15,6 +15,17 @@ header nav{
   justify-content: space-between;
   padding: 2% 6%;
 }
+.s-links{
+  position: fixed;
+  right: 0px;
+  top: 150px;
+  width: 50px;
+}
+.s-links i {
+  width: 50px;
+  height: 50px;
+  
+}
 nav img {
   width: 150px;
 }
@@ -22,7 +33,24 @@ nav img {
   display: flex;
   list-style: none;
   gap: 20px;
+}
+.nav-links li {
+  position: relative;
+  padding: 30px 15px;
+}
+.submenu {
+  position: absolute;
+  list-style: none;
+  width: 100% ;
+  left: 0px;
   
+  background: #ccc;
+  
+}
+
+.submenu li {
+  display: block;
+  padding: 10px;
 }
 .nav-links a {
   color: #fff;
